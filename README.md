@@ -5,8 +5,9 @@ The API has two routes `/watches` which returns a list of watches and `/iphones`
 
 ## Application Requirements
 
-* Create a `/watches` route that displays a grid of watch device cards - reference [card design](#reference-device-card)
-* Create a `/iphones` route that displays a grid of iPhone device cards - reference [card design](#reference-device-card)
+* Create either (or if time allows, both):
+  - Create a `/watches` route that displays a grid of watch device cards - reference [card design](#reference-device-card)
+  - Create a `/iphones` route that displays a grid of iPhone device cards - reference [card design](#reference-device-card)
 * Each route represents a page in the application. Each page should have a heading indicating the type of device listed on the page and a grid showing all the devices in that category.
 * An index page with a list of all pages (i.e. A watch page and phone page).
 * Unit tests for your work where it makes sense. At Telus Digital we pride ourselves on having applications with great test coverage. Please be prepared to talk about your testing choices.
