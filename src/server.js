@@ -1,4 +1,5 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var router = express.Router();
 var PORT = 8081;
@@ -47,6 +48,8 @@ router.get('/iphones', function(req, res) {
   });
 });
 
+app.use(cors());
+app.use(express.static('public'));
 app.use('/', router);
 
 app.listen(PORT, () => {
